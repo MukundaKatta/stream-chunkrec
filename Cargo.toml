@@ -1,0 +1,15 @@
+[package]
+name = "stream-chunkrec"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Recombine LLM streaming token deltas into stable text. Buffers partial words, handles UTF-8 fragments across chunks. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/stream-chunkrec"
+homepage = "https://github.com/MukundaKatta/stream-chunkrec"
+documentation = "https://docs.rs/stream-chunkrec"
+readme = "README.md"
+keywords = ["stream", "llm", "delta", "utf8", "recombine"]
+categories = ["text-processing"]
+exclude = [".github/*", "target/*"]
